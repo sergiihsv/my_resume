@@ -13,6 +13,11 @@ body {
     font-family: Montserrat;
 }
 
+
+a{
+    text-decoration: none;
+}
+
 .wrapper{
     background: #ffffff;
     display: flex;
@@ -56,13 +61,29 @@ body {
     color: #d4d6d9;
 }
 
-.contacts-links-type{
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-right: 10px;
+
+.contacts-links-active{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #d4d6d9;
 }
+
+
+
+
+
+.contacts-links-active:hover{
+    color: #ff6b08;
+}
+
+.contacts-links-active:focus{
+    color:#ff6b08;
+    box-shadow: 0 0 0 3px #a50b0b;
+}
+
+
+
 
 .tech-skills-title{
     font-size: 22px;
@@ -121,7 +142,7 @@ margin-bottom: 20px;
     font-size: 22px;
     line-height: 24px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 .name{
@@ -132,7 +153,7 @@ margin-bottom: 20px;
 
 .description{
     font-size: 18px;
-    line-height: 24px;
+    line-height: 33px;
     font-weight: 500;
     
   }
@@ -149,7 +170,7 @@ margin-bottom: 20px;
 }
 
 .projects-link{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 600;
     color: #ff6b08;
@@ -161,7 +182,17 @@ margin-bottom: 20px;
     line-height: 24px;
     font-weight: 400;
     color: #595959
+    
 }
+
+.projects-link-github:hover{
+    color:#ff6b08
+}
+
+.projects-link-github:focus {
+    color:#ff6b08;
+    box-shadow: 0 0 0 3px #a50b0b;
+  }
 
 
 .tech-name{
@@ -191,7 +222,7 @@ margin-bottom: 20px;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    color: #595959
+    
 }
 
 
@@ -213,7 +244,7 @@ margin-bottom: 20px;
 }
 
 .profession-time{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 400;    
 }
@@ -231,7 +262,11 @@ margin-bottom: 20px;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    color: #595959;
+    
+}
+
+.education{
+    margin-bottom: 30px;
 }
 
 .education-item{

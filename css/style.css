@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #f5f7fa;
+  
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
@@ -18,7 +18,7 @@ a {
 }
 
 .wrapper {
-  background: #ffffff;
+  
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
@@ -33,10 +33,11 @@ a {
 }
 
 .about-me-container {
+    background-color: #f9fbfd;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 30px;
-  padding-bottom: 110px;
+  padding-bottom: 90px;
 }
 
 .contacts-container {
@@ -54,15 +55,15 @@ a {
 }
 
 .contacts-links {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 32px;
   font-weight: 500;
   color: #d4d6d9;
 }
 
 .contacts-links-active {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 32px;
   font-weight: 500;
   color: #d4d6d9;
 }
@@ -75,7 +76,7 @@ a {
 
 .tech-skills-title {
   font-size: 22px;
-  line-height: 24px;
+  line-height: 28px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #ffffff;
@@ -88,8 +89,8 @@ a {
 }
 
 .tech-skills-item {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 400;
   color: #ff6b08;
   margin-left: 16px;
@@ -101,7 +102,7 @@ a {
 
 .soft-skills-title {
   font-size: 22px;
-  line-height: 24px;
+  line-height: 28px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 55px;
@@ -115,8 +116,8 @@ a {
 }
 
 .soft-skills-item {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 28px;
   font-weight: 400;
   color: #ff6b08;
   margin-left: 16px;
@@ -127,21 +128,20 @@ a {
 }
 
 .profession {
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
   margin-bottom: 50px;
 }
 
 .name {
-  font-size: 45px;
+  font-size: 50px;
   line-height: 89px;
   font-weight: 700;
 }
 
 .description {
-  font-size: 18px;
-  line-height: 33px;
+  font-size: 24px;
+  line-height: 40px;
   font-weight: 550;
 }
 
@@ -150,14 +150,18 @@ a {
 }
 
 .about-me-title {
-  font-size: 22px;
+  font-size: 26px;
   line-height: 24px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
+.about-projects{
+  line-height: 38px;
+}
+
 .projects-link {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 24px;
   font-weight: 600;
   color: #ff6b08;
@@ -170,7 +174,7 @@ a {
 }
 
 .projects-link-github {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   color: #595959;
@@ -183,7 +187,7 @@ a {
 }
 
 .tech-name {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -204,7 +208,7 @@ a {
 }
 
 .project-text {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -214,19 +218,20 @@ a {
 }
 
 .profession-title {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .proffesion-company {
+  font-size: 18px;
   color: #ff6b08;
 }
 
 .profession-time {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -241,17 +246,17 @@ a {
 }
 
 .profession-duties-item {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 26px;
   font-weight: 400;
 }
 
 .education {
-  margin-bottom: 30px;
+  margin-top: 55px;
 }
 
 .education-item {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 700;
 }
